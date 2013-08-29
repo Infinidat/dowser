@@ -1,15 +1,10 @@
 Overview
 ========
-This is an Infinidat project.
+
+This is a pip/easy_install'able version of http://e-mats.org/2013/01/debugging-pythons-memory-usage-with-dowser/
 
 Usage
 -----
-Nothing to use here.
 
-Checking out the code
-=====================
-Run the following commands:
-    
-    easy_install -U infi.projector
-    projector devenv build
-
+    from dowser import launch_memory_usage_server
+    launch_memory_usage_server()
