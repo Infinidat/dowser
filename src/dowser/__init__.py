@@ -11,8 +11,8 @@ import threading
 import time
 from types import FrameType, ModuleType
 
-import Image
-import ImageDraw
+from PIL import Image
+from PIL import ImageDraw
 
 import cherrypy
 
